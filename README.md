@@ -6,9 +6,12 @@ Repo for teaching python to a beginner (my Cousin)
 
 #### Git commands 
 `user> git add  filename.py`
+
 `user> git commit -m message`
+
 `user> git push -u origin main`
 
 * if you see any error while pushing the code to git use :
+
 `user> git pull`
 
