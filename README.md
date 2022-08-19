@@ -15,3 +15,8 @@ Repo for teaching python to a beginner (my Cousin)
 
 `user> git pull`
 
+* Common terminal commands 
+`$ cd ..` => go back a folder 
+`$ cd 'folder' => go inside a folder 
+`$ ls ` ===> list directories 
+
