@@ -37,6 +37,11 @@ For example:
  **Make sure to change your current branch to another one , if it's the one you're deleting 
  then it will give you error**
 
+ * If you're not able to delete the branch even after following above step you might want to use force delete using -D instead of -d like :
+
+ `$ git branch -D nameOfTheBranch`
+ 
+
 #### Common terminal commands 
 `$ cd ..` => go back a folder 
 
