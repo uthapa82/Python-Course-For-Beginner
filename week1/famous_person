@@ -1,0 +1,3 @@
+famous_person = "Albert Einstein"
+message = " you are great person."
+print(famous_person + message)
