@@ -5,17 +5,39 @@ Repo for teaching python to a beginner (my Cousin)
 * PEP8 guidlines suggest 78 characters per line
 
 #### Git commands 
-`user> git add  filename.py`
+`$ git add  filename.py`
 
-`user> git commit -m message`
+`$ git commit -m message`
 
-`user> git push -u origin main`
+`$ git push -u origin main`
 
 * if you see any error while pushing the code to git use :
 
-`user> git pull`
+`$ git pull`
 
-* Common terminal commands 
+* Display all available branch
+
+`$ git branch`
+
+* Create a new branch name 
+
+`$ git branch name ` =====> name = name of the branch you want to create 
+
+For example:
+`$ git branch week2`
+
+* Switching branch 
+
+`$ git checkout name` ===> again here name = the branch you want to checkout
+
+* Deleting the branch 
+
+`$ git branch -d nameOfTheBranch `
+ 
+ **Make sure to change your current branch to another one , if it's the one you're deleting 
+ then it will give you error**
+
+#### Common terminal commands 
 `$ cd ..` => go back a folder 
 
 `$ cd 'folder'` => go inside a folder 
