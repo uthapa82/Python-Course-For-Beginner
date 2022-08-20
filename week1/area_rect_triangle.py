@@ -5,7 +5,7 @@ b = 7
 area_rectangle = l * b
 print(area_rectangle)
 
-# area of rectangle
+# area of triangle
 h = 10
 
 area_triangle = (1/2) * 7 *  10
