@@ -1,7 +1,7 @@
-from socket import AI_NUMERICHOST
+guest_list = ["Anusha", "Upendra", "Abhijeet"]
 
+print(guest_list[0] + ", Sorry I cannot make it")
+guest_list [0] = "Anu"
 
-Guests = ["Anusha", "Upendra", "Abhijeet"]
-Guests [0] = "Anu"
-print(Guests)
-print("I'd like to invite " + Guests[0] + " for dinner" )
+for guest in guest_list:
+    print("I'd like to invite " + guest + " for dinner" )
