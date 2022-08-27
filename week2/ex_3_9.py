@@ -1,2 +1,2 @@
 guests = ["Anusha", "Upendra", "Abhijeet"]
-print (len (guests))
+print(len(guests))
