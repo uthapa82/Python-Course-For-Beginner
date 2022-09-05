@@ -1,12 +1,11 @@
 #equality and inequality
 car = 'BMW'
-print(car)
-car != 'BMW'
-print('audi')
+print("\n Is car == 'BMW'? I predict True")
 
 #lowercase function
-car = "BMW"
-print(car.lower())
+print("\n Is car == 'bmw'? I predict false")
+car = car.lower()
+print("\n Is car == 'bmw'? I predict True")
 
 #Numerical test
 3 != 5
