@@ -1,8 +1,8 @@
 users = ["ram", "shyam", "hari"]
 for i in users:
     print(i)
-
-if users == []:
+user = []
+if user == []:
     print("we need to find some users!")
 
 else:
