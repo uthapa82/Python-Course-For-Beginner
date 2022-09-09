@@ -11,3 +11,4 @@ fav_no = {"Abhishek": "1", "Abhi": "2", "anu": "3", "anusha": "4", "anup": "5"}
 for key, value in fav_no.items():
     print("\nkey:" + key)
     print("value:" + value)
+    print(key + " favroite number is " + value)
