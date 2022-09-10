@@ -6,6 +6,7 @@ prog_words = {
     ".remove": "to remove elements from list"}
 
 for k, v in prog_words.items():
+    # TODO
     print("\nk:" + k + " meaning is")
     print("v:" + v)
 
@@ -22,5 +23,6 @@ more_pwords = {
     ".upper()": "change element into uppercase"}
     
 for k, v in more_pwords.items():
+    # TODO
     print("\nk:" + k + " meaning is")
     print("v:" + v)
