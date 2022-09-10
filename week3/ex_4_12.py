@@ -1,4 +1,4 @@
-my_food = ("pizza", "burger", "chowmin")
+my_food = ("pizza", "burger", "chowmin") #using two for loops
 for food in my_food:
     print(food)
 

@@ -7,6 +7,8 @@ print(max(number))   #finding max numbers in a list
 
 print(min(number))  #finding minimum numbers.
 
-cubes = [value**3 for value in range(5,11)]
+cubes = [value**3 for value in range(5,11)] #finding cubes
 print(cubes)
+
+
 
