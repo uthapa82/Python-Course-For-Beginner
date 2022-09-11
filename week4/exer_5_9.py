@@ -1,2 +1,0 @@
-#ramm 
-print("hello world")

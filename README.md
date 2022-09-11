@@ -41,6 +41,17 @@ For example:
 
  `$ git branch -D nameOfTheBranch`
  
+ * pull from specific branch remote repo 
+
+ `$ git pull <remote_repo> <branch>`
+
+ * clone from specific branch 
+
+ `$ git clone -b <branch> <remote-repo>`
+
+ For example:
+ 
+ `$ git clone -b week4 github_repo-link`
 
 #### Common terminal commands 
 `$ cd ..` => go back a folder 

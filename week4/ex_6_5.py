@@ -1,3 +1,4 @@
+#TODO
 rivers = {
     "Bishnumati": "Machhapokhari",
     "Hang Ho": "China",
@@ -5,10 +6,14 @@ rivers = {
 }
 
 for k, v in rivers.items():
-    print("\nk:" + k + " river " + "runs through " + v + ".")
-
+    print(k + " river " + "runs through " + v + ".")
+    
+print("\nThe following rivers are included in the data: ")
 for key, value in rivers.items():
-    print("\nkey:" + key + " river.")
-
+    print("- " +key + " river.")
+    
+print("\nThe following countries are included in the data: ")
 for key, value in rivers.items():
-    print("\nvalue:" + value)
+    print("- " + value)
+    
+     
