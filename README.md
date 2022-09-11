@@ -46,7 +46,7 @@ For example:
  `$ git pull <remote_repo> <branch>`
 
  * clone from specific branch 
-
+ 
  `$ git clone -b <branch> <remote-repo>`
 
  For example:
