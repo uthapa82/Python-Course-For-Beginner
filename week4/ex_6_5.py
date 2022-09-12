@@ -1,8 +1,8 @@
 #TODO
 rivers = {
-    "Bishnumati": "Machhapokhari",
-    "Hang Ho": "China",
-    "Nile": "Egypt"
+    'Bishnumati': 'Machhapokhari',
+    'Hang Ho': 'China',
+    'Nile': 'Egypt',
 }
 
 for k, v in rivers.items():
