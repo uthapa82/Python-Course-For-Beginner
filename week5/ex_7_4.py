@@ -7,7 +7,7 @@
 #Pizza topping.
 prompt = ("\nenter a series of pizza topping")
 prompt += ("\n Enter 'quit' to end the program" )
-#message = " " #"you'll add topping to their pizza"
+#message = " "
 
 while True:#message != 'quit':
     message = input(prompt)
