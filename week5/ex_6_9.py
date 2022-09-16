@@ -4,6 +4,8 @@ favorite_place = {
     'Anuhsa': ['mustang', 'illam', 'chitwan'],
 }
 #favorite_place['Anu'] = "lakesite"
-for names, places in favorite_place.items():
-    print(names + " favorite place are: ")
-    print(places)
+for name, place in favorite_place.items():
+    print("\n" + name + "'s favorite place is: ")
+
+    for placee in place:
+        print("\t" +"*" + placee.title() + ".")
