@@ -1,5 +1,5 @@
 favorite_place = {
-    'Anu': 'pokhara',
+    'Anu': ['pokhara'],
     'Anup': ['bhaktapur', 'kathmandu'],
     'Anuhsa': ['mustang', 'illam', 'chitwan'],
 }
@@ -7,5 +7,5 @@ favorite_place = {
 for name, place in favorite_place.items():
     print("\n" + name + "'s favorite place is: ")
 
-    for placee in place:
-        print("\t" +"*" + placee.title() + ".")
+    for location in place:
+        print("\t" +"* " + location.title() + ".")
