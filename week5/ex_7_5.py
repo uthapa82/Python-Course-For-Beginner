@@ -6,7 +6,7 @@ while True:
    
     if age == 'quit':
         break
-
+    age = int(age)
     if age < 3:
         print("ticket is free")
         
