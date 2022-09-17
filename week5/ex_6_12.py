@@ -1,8 +1,9 @@
 favorite_place = {
-    'Anu': 'pokhara',
+    'Anu': ['pokhara', 'Banepa'],
     'Anup': ['bhaktapur', 'kathmandu'],
-    'Anuhsa': 'mustang',}
-
-favorite_place['abhi'] = 'banepa'
-print(favorite_place)
-print("Anu like to visit " + favorite_place['Anu'] + ".")
+    'Anuhsa': ['mustang', 'Manang'],
+    }
+for name, place in favorite_place.items():
+    print(name + " likes following places:")
+    for location in place:
+        print("\t * " + location)
