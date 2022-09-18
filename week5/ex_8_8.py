@@ -1,22 +1,25 @@
-def make_album(artist_name, title):
+def make_album(artist_name, title, tracks=""):
     """returning dictonary of information of artist"""
-    artist = {
-        'first ': artist_name,
-        'last ': title,
+    artist_dict = {
+        'artist': artist_name.title(),
+        'title': title.title(),
         }
-    return artist
+    if tracks:
+        artist_dict['tracks'] = tracks
 
-musician = make_album('Abhishek', 'singer')
-print(musician)
+    return artist_dict
+
 while True:
-    print("\n please tell me your name")
+    print("\n please tell me the name of the song ")
+    print("\n who is the artist ")
     print("(enter 'q' at any time to quit)")
     
-    artist_name = input("first ")
+    artist_name = input("artist ")
     if artist_name == 'q':
         break
-    title = input("last ")
+    title = input("song name ")
     if title == 'q':
         break
 
-message = make_album('abhi ', 'singer ')
+    artist = make_album(artist_name, title)
+    print(artist)

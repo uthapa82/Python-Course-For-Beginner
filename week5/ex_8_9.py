@@ -1,7 +1,7 @@
-def magicians (names):
+def show_magicians (names):
     """Display magicians name"""
     for name in names:
         megician = "hello, " + name.title() + "."
         print(megician)
-username = ["Abhi", "Anup", "Anup"]
-magicians(username)
+magician = ["Abhi", "Anup", "Anup"]
+show_magicians(magician)
