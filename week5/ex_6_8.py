@@ -15,6 +15,3 @@ pets_list = [suri, kali, khaire]
 #lopping through the list.
 for animals in pets_list:
     print(animals['owner'] + " has a " + animals['animal_kind'])
-    for k, v in animals.items():
-        print("\t" + k + "have a " + v)
-
