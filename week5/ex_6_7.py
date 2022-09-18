@@ -5,7 +5,7 @@ people_list_1 = {
     'age': '19', 
     'city': 'kathmandu',
     }
-main_list.append(people_list_1)
+#main_list.append(people_list_1)
 
 people_list_2 = {
     'first_name': 'anu',
@@ -13,7 +13,7 @@ people_list_2 = {
     'age': 22,
     'city': 'bhaktapur',
 }
-main_list.append(people_list_2)
+#main_list.append(people_list_2)
 
 people_list_3 = {
     'first_name': 'abhi',
@@ -21,10 +21,10 @@ people_list_3 = {
     'age': 16,
     'city': 'kathmandu',
 }
-main_list.append(people_list_3)
+#main_list.append(people_list_3)
 people_list = [people_list_1, people_list_2, people_list_3]
 
-for people in main_list:
+for people in people_list:
     full_name = people['first_name'].title() + " " + people['last_name'].title()
     people_age = people['age']
     people_city = people['city'].title()
