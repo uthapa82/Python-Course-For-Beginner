@@ -1,19 +1,12 @@
-#Practice.
-#prompt = ("tell me who your are")
-#prompt = ("what is your name." )
-#name = input(prompt)
-#print("hello" + name)
-
 #Pizza topping.
 prompt = ("\nenter a series of pizza topping")
-prompt += ("\n Enter 'quit' to end the program" )
-#message = " "
+prompt += ("\n Enter 'quit' to end the program " )
 
-while True:#message != 'quit':
+while True:
     message = input(prompt)
    
-    if message == 'quit':
-         break
+    if message != 'quit':
+        print("you'll add topping to your pizza")
 
     else:
-        print("you'll add topping to your pizza")
+        break
