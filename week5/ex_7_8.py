@@ -1,4 +1,5 @@
 #using while loop with list.
+#little tough one to understand.
 sandwich_orders = ["veg sandwich", "butter sadwich", "tuna sandwich"]
 finished_sandwich = []
 
@@ -8,8 +9,8 @@ while sandwich_orders:
     current_order = sandwich_orders.pop()
     print("verifying orders: " + current_order)
     finished_sandwich.append(current_order)
+    
 print("\n")
 print("The following sandwich have been moved to finished sandwich list:")
 for j in finished_sandwich:
-    print("\n" + j.title())
     print(j.title() + " was made!")
