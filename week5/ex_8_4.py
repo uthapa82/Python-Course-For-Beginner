@@ -1,8 +1,7 @@
-def make_shirt(size, shirt_0 = 'medium', shirt = 'large',):
+def make_shirt(size='large', message = 'I want Tshirt which is: '):
     """display information about t-shirt"""
-    print("i love python " + shirt)
-    print("The shirt is " + shirt)
-    print("The shirt is " + shirt_0)
-    print("The size of the shirt is " + str(size))
+    print(message + size)
 
-make_shirt(size = 20,)
+make_shirt()
+make_shirt(size='Medium')
+make_shirt('small', 'I have shirt which is ')
