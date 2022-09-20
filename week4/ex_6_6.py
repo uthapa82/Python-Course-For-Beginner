@@ -1,7 +1,7 @@
 favorite_language = {
-    "Anu": "C",
-    "Abhishek": "Pyhton",
-    "Anusha": "Java"
+    'Anu': 'C',
+    'Abhishek': 'Pyhton',
+    'Anusha': 'Java'
     }
 for name, language in favorite_language.items():
     print(name.title() +"'s favorite language is " + language.title() + ".")
