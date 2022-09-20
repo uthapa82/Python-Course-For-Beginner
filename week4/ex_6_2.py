@@ -1,6 +1,5 @@
 #using dictonary 
 #2nd step print each person name and their favroite numbers
-# correct it 
 fav_no = {
     'Abhishek': 1, 
     'Abhi': 2, 

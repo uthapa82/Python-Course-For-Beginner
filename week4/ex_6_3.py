@@ -1,5 +1,4 @@
-#Glossary.
-# correction == ''
+#Glossary..
 prog_words = {
     'append': 'to add something',
     'pop': 'to remove last element',
