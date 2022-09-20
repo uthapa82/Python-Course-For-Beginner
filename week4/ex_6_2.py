@@ -1,13 +1,12 @@
 #using dictonary 
 #2nd step print each person name and their favroite numbers
-# correct it 
 fav_no = {
-    "Abhishek": '1', 
-    "Abhi": "2", 
-    "anu": "3", 
-    "anusha": "4", 
-    "anup": "5"
-    }
+    'Abhishek': 1, 
+    'Abhi': 2, 
+    'anu': 3, 
+    'anusha': 4, 
+    'anup': 5,
+    } 
 #print(fav_no["Abhishek"])
 #print("Abhi favorite number is " + str(fav_no['Abhishek']))
 #print(fav_no["Abhi"])
