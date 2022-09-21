@@ -1,11 +1,11 @@
 student_name = input("enter the name of the student ")
-M = int(input("maths : "))
-S = int(input("science : "))
-E = int(input("English : "))
-c_s = int(input("computer science : "))
-A = int(input("Account : "))
+maths = int(input("maths : "))
+science = int(input("science : "))
+english = int(input("English : "))
+computer_science = int(input("computer science : "))
+account = int(input("Account : "))
 
-total = M + S + E + c_s + A
+total = maths + science + english + computer_science + account
 per = total/ 5
 
 if per >= 90:
