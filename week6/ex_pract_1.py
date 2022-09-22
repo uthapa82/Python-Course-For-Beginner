@@ -1,14 +1,12 @@
 def foo_bar(int_n):
-    """print numbers"""
-    print("\n" + str(int_n))
-    
-    if int_n % 3 == 0:
-        print("foo")
-    
-    if int_n %5 == 0:
-        print("bar")
-    
-    if int_n %3 %5 == 0:
-        print("foo bar")
+    for num in range(1, int_n):
+        if num % 3 == 0:
+            print("foo")
+        if num %5 == 0:
+            print("bar")
+        if num %3 == 0 and num %5 == 0:
+            print("foobar")
+        else:
+            print(num)
 
-foo_bar(int_n = 12)
+foo_bar(int_n = 16)
