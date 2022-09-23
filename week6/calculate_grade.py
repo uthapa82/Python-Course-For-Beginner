@@ -13,7 +13,7 @@ if per >= 90:
 elif per >= 85:
     print(student_name + " got grade of B")
 elif per >= 75:
-    print(student_name + " got grade of c")
+    print(student_name + " got grade of C")
 elif per >= 65:
     print(student_name + " got grade of D")
 else:
