@@ -21,7 +21,6 @@ more_pwords = {
     '.sort': 'to sort something',
     '.reverse': 'to reverse something',
     '.lower()': 'to change element into lowercase',
-    '.upper()': 'change element into uppercase',}
-    
+    }
 for k, v in more_pwords.items():
     print(k + " meaning is " + v + ".")
