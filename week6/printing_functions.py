@@ -1,10 +1,5 @@
-def build_bikes(manufacture, model, **bike_info):
-    bikes = {
-        'bike name': manufacture.title,
-        'model': model.title,
-    }
-    for key, value in bike_info.items():
-        bikes[key] = value
+def print_models(complete_design):
+    print("Printing the model of " + complete_design)
 
-    return bikes
-
+def show_uncomplete_models(uncomplete_design):
+    print("This is uncomplete model of: " + uncomplete_design)
