@@ -6,7 +6,7 @@ fav_no = {
     'anu': 3, 
     'anusha': 4, 
     'anup': 5,
-    } 
+    }
 #print(fav_no["Abhishek"])
 #print("Abhi favorite number is " + str(fav_no['Abhishek']))
 #print(fav_no["Abhi"])
@@ -16,4 +16,4 @@ fav_no = {
 
 #using forloop.
 for key, value in fav_no.items():
-    print(key + " favroite number is " + value)
+    print(key + " favroite number is " + str(value))
