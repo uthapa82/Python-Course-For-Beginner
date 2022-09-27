@@ -12,5 +12,10 @@ class Dog():
 
 
 dog1 = Dog('Khaire', '5')
-print(dog1.sit())
-print(dog1.roll_over())
+dog_2 = Dog('Khaire', '5')
+
+dog1.sit()
+dog1.roll_over()
+
+dog_2.sit()
+dog_2.roll_over()
