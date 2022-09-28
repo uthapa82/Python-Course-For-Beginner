@@ -1,10 +1,10 @@
 class User():
-    def __init__(self, first_name, last_name, age, profession, login_attempts):
+    def __init__(self, first_name, last_name, age, profession):
         self.first_name = first_name.title()
         self.last_name = last_name.title()
         self.age = age 
         self.profession = profession.title()
-        self.login_attempts = login_attempts
+        self.login_attempts = 0
 
     def increment_login_attempts(self, value):
         print("you have login " + str(self.login_attempts) + " times")
@@ -23,14 +23,14 @@ class User():
     def greet_user(self):
         print("Hello " + self.first_name + " " + self.last_name)
 
-user = User('abhi', 'lamichhane', 15, 'student', 0)
-user1 = User('anup', 'thapa', 22, 'business man', 0)
+user = User('abhi', 'lamichhane', 15, 'student')
+user1 = User('anup', 'thapa', 22, 'business man')
 
 user.describe_user()
 user1.describe_user()
 user1.greet_user()
 
-user_2 = User('abhi', 'lamichhane', 15, 'student', 0)
+user_2 = User('abhi', 'lamichhane', 15, 'student')
 user_2.increment_login_attempts(1)
 user_2.increment_login_attempts(3)
 user_2.increment_login_attempts(2)
