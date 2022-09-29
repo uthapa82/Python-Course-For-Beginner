@@ -9,8 +9,10 @@ class Restaurant():
         print("the restaurant have served " + str(self.number_served) + " customers!!")
 
     def set_number_served(self, served_customer):
+        
         if served_customer >= self.number_served:
             print(str(served_customer) + "customer have been served!!")
+            self.number_served = served_customer
         else:
             print("sorry")
         
@@ -28,8 +30,6 @@ class Restaurant():
 rest1 = Restaurant('burger house', 'italin dish')
 print("\n")
 restaurant= Restaurant('burger house', 'italin dish')
-restaurant.number_served = 11
-restaurant.number_served = 12
 restaurant.read_number_served()
 
 restaurant.set_number_served(22)
