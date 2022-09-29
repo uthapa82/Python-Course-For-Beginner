@@ -10,10 +10,9 @@ class User():
         print("you have login " + str(self.login_attempts) + " times")
         self.login_attempts += value
         
-    def reset_login_attempts(self, reset_login):
-        if reset_login == 0:
+    def reset_login_attempts(self):
+        if self.login_attempts == 0:
             print("you have successfull reset you login")
-            self.login_attempts = reset_login
         else:
             print("please reset your login")
     
@@ -36,6 +35,6 @@ user_2.increment_login_attempts(3)
 user_2.increment_login_attempts(2)
 print(user_2.login_attempts)
 
-user_2.reset_login_attempts(0)
-user_2.reset_login_attempts(1)
+user_2.reset_login_attempts()
+user_2.reset_login_attempts()
 print(user_2.login_attempts)
