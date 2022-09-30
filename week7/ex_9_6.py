@@ -21,6 +21,7 @@ class IceCreamStand(Resturant):
         print("This resturant have " + str(self.flavor) + " flavor ice cream")
 
 flavor_0 = IceCreamStand('WilliFood', 'italian',)
+
 flavor_0.display_flavor()
 
 #flavor_0.display_flavor()
