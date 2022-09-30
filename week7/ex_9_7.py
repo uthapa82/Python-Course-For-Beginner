@@ -6,7 +6,7 @@ class User():
         self.profession = profession.title()
     
     def describe_user(self):
-        print(self.first_name + " " + self.last_name + " is a " + self.profession)
+        print(self.first_name + " " + self.last_name + ", " + self.profession)
 
     def greet_user(self):
         print("Hello " + self.first_name + " " + self.last_name)
@@ -22,6 +22,7 @@ class Admin(User):
 
 
 user_0 = Admin('Elon', 'Musk', 38, 'CEO')
+user_0.describe_user()
 user_0.show_priviliges()
 
     
