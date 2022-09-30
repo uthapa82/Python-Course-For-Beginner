@@ -22,16 +22,14 @@ class Admin(User):
 
 
 user_0 = Admin('Elon', 'Musk', 38, 'CEO')
-user_0.describe_user()
-<<<<<<< HEAD
-=======
 
 user_0.privileges = [
     "can add post", 
     "can delete post", 
     "can ban user"
 ]
->>>>>>> bfc874c258fc52f8f48b357e0ff33c03463188e3
+
+user_0.describe_user()
 user_0.show_priviliges()
 
     
