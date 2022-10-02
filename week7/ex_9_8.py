@@ -27,11 +27,6 @@ class Admin(User):
         self.privileges = []
         self.privileges = Privileges()
 
-    def show_priviliges(self):
-        print("privilies")
-        for i in self.privileges:
-            print(i)
-
 class Privileges():
     def __init__(self, privileges = []):
         self.privileges = privileges
@@ -45,14 +40,10 @@ class Privileges():
 
 user_0 = Admin('Elon', 'Musk', 36, 'CEO')
 user_0.describe_user()
-#user_0.show_priviliges()
-user_0.show_priviliges()
 
 print("\n" + "privileges:")
 user_0.privileges = [
     "can add post", 
     "can delete post", 
     "can ban user"
-]
-user_0.show_priviliges()
-    
+]   
