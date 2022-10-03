@@ -10,5 +10,6 @@ user_0_privileges = [
     "can delete post", 
     "can ban user"
 ] 
+
 user_0.privileges.privileges = user_0_privileges
 user_0.privileges.show_priviliges()
