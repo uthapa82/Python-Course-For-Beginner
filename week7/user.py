@@ -18,4 +18,4 @@ class User():
         print(self.first_name + " " + self.last_name + " is a " + self.profession)
 
     def greet_user(self):
-        print("Hello " + self.first_name + " " + self.last_name)
+        print("Hello " + self.first_name + "  " + self.last_name)
