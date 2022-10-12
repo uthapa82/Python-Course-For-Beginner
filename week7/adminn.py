@@ -16,4 +16,4 @@ class Privileges():
             for i in self.privileges:
                 print(i)
             else:
-                print("Sorry!! privilege is empty.")
+                print("Sorry! privilege is EMPTY.")
