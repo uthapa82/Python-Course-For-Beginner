@@ -1,0 +1,3 @@
+In python you can add something in a list using .append()!!
+In python you can remove something in a list using .remove()!!
+in python you can do large coding..
