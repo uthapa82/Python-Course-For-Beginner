@@ -14,7 +14,7 @@
 #                                                                                         #
 #                                                                                         #
 # 3. Write a function to reverse a user string. function name reverse_string(user_string) #
-#                                                                                         #
+#      Smaple: user input:thapa output: apaht                                             #
 #-------------------------------------------------------------------------------------------
 
 # REMOVE THE comment below 
