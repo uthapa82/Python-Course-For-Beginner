@@ -16,4 +16,3 @@
 # 3. Write a function to reverse a user string. function name reverse_string(user_string) #
 #      Sample: user input:thapa output: apaht                                             #
 #-------------------------------------------------------------------------------------------
-
