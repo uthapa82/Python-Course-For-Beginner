@@ -14,8 +14,5 @@
 #                                                                                         #
 #                                                                                         #
 # 3. Write a function to reverse a user string. function name reverse_string(user_string) #
-#      Smaple: user input:thapa output: apaht                                             #
+#      Sample: user input:thapa output: apaht                                             #
 #-------------------------------------------------------------------------------------------
-
-# REMOVE THE comment below 
-# use the python recommended format def function ... def main() ... if __name__ == '__main__'
