@@ -29,28 +29,34 @@
 #         Please enter a word: Anu                                                        #
 #         The word is odd (because Anu is three character 'a', 'n', 'u')                  #
 #------------------------------------------------------------------------------------------
-"""
-    Remove below when you're done with this exercise 
+def swap_element(user_list, first, last):
+    first = [0, 2, 3, 4, 6]
+    first[0] = 1
+    first[4] = 5
+    first = last
+    print(last)
     
-    for exercise 1 you can take list as a input in a similar way we talked in day1 exercise 1 
-    then just take first and last number from user and change the element in that postion
-    like list_user[0] = what user want to change 
-    
-    for exercise 2 it's just a conditional if and else statement that's it 
+def max_min(num1, num2):
+    num1 = int(input("enter a number "))
+    numb2 = int(input("enter a number "))
 
-    for exercise 3 it's similar to list_length in day1 exercise but you might need to add some
-    conditionals to check odd and even  that's it 
+    if num1 > numb2:
+        print("maximum number is " + num1)
 
-    Good luck and PLEASE TRY TO FOLLOW THE CONVENTIONS WE DISCUSSED and no extra .py files this
-    should be one file that's it 
-    def f...
+    else:
+        print("minimum number is " + num2)
 
-    def f...
+def odd_even(user_string):
+    if user_string == 2:
+        print("The word is even ")
+    else:
+        print("The word is odd ")
 
-    def ...
+def main():
+    user_list = input("please enternumber seperaely by space ") 
 
-    def main():
-        
-    if __name__ == '__main__':
-        main()
-"""
+    #exercise 3
+    user_input = input("please enter a word: ")
+
+if __name__ == '__main__':
+    main()
