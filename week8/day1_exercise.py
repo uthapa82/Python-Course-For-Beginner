@@ -39,7 +39,7 @@ def list_length(user_lst):
     Args:
         user_lst (_list_): user list 
     """    
-    print(len(user_lst))
+    print("length of the list is ", len(user_lst))
 
 def reverse_string(user_string):
     """takes string from user and prints the reverse of it 
@@ -58,7 +58,7 @@ def main():
 
     #user_list input 
     ("Length of the list: ")
-    user_input = input("Enter the numbers separated by spaces")
+    user_input = input("Enter the numbers separated by spaces: ")
     # for i in range(0, userinput):
     #     value = int(input('Enter a number: '))
     #     user_list.append(value)
