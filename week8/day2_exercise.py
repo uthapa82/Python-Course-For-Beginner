@@ -29,22 +29,19 @@
 #         Please enter a word: Anu                                                        #
 #         The word is odd (because Anu is three character 'a', 'n', 'u')                  #
 #------------------------------------------------------------------------------------------
+from sys import last_traceback
+
+
 def swap_element(user_list, first, last):
     first = [0, 2, 3, 4, 6]
-    first[0] = 1
-    first[4] = 5
-    first = last
-    print(last)
+    last = [2, 3, 4, 5]
     
 def max_min(num1, num2):
-    num1 = int(input("enter a number "))
-    numb2 = int(input("enter a number "))
-
-    if num1 > numb2:
-        print("maximum number is " + num1)
+    if num1 > num2:
+        print("maximum number is : " + num1)
 
     else:
-        print("minimum number is " + num2)
+        print("minimum number is : " + num2)
 
 def odd_even(user_string):
     if user_string == 2:
@@ -53,7 +50,13 @@ def odd_even(user_string):
         print("The word is odd ")
 
 def main():
-    user_list = input("please enternumber seperaely by space ") 
+    #exercise1
+    user_list = input("please enternumber seperaely by space ")
+    user_list[0] = 1
+
+    #exercise2
+    num1 = int(input("enter a number "))
+    numb2 = int(input("enter a number "))
 
     #exercise 3
     user_input = input("please enter a word: ")
