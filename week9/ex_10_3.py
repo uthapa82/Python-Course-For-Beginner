@@ -1,4 +1,5 @@
-filename = 'guest.py'
+user_name = input("what is your name ?")
+filename = 'guest.txt'
 
-with open (filename, 'a') as file_object:
-    file_object.write("What is your name?")
+with open (filename, 'w') as file_object:
+    file_object.write(user_name)
