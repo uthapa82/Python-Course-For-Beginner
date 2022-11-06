@@ -1,4 +1,4 @@
-print("Enter 'q' to quit")
+print("Enter 'q' to quit" )
 
 while True:
     first = int(input("enter first number: "))
@@ -12,7 +12,7 @@ while True:
     try:
         sum = first + second
 
-    except ValueError:
+    except TypeError:
         print("sorry cant add")
 
     print(sum)

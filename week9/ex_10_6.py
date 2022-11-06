@@ -3,7 +3,7 @@ try:
 
     second = int(input("Enter second number: "))
 
-except TypeError:
+except ValueError:
     print("sorry, Enter number only")
 
 else:
