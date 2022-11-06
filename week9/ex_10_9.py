@@ -1,4 +1,4 @@
-filename = ['cat.txt', 'dog.txt']
+filename = ['cat.txt', 'dog.txt', 'cow.txt']
 
 for i in filename:
     print("\nOpening file: " + i)
@@ -7,5 +7,5 @@ for i in filename:
             contents = f_obj.read()
             print(contents)
 
-    except TypeError:
-        print("sorry, file not found")
+    except FileNotFoundError:
+        pass

@@ -1,18 +1,18 @@
 print("Enter 'q' to quit" )
 
 while True:
-    try:
-        first = int(input("enter first number: "))
-        if first == 'q':
-            break
-        
-        second = int(input("Enter second number: "))
-        if second == 'q':
-            break
-
-    except ValueError:
-        print("Invalid input, enter number only")
+    first = int(input("enter first number: "))
+    if first == 'q':
+        break
     
-    else:
-       sum = first + second
-       print("\nThe sum is " + str(first) + " and " + str(second) + " is " + str(sum) + "\n")
+    second = int(input("Enter second number: "))
+    if second == 'q':
+        break
+        
+    try:
+        sum = first + second
+
+    except TypeError:
+        print("sorry cant add")
+
+    print(sum)
