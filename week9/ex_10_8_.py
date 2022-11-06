@@ -1,4 +1,4 @@
-filename = "cat.txt"
+filename = 'cat.txt'
 
 with open (filename, 'w') as c:
     c.write("Oggy")

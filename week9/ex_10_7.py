@@ -12,7 +12,7 @@ while True:
     try:
         sum = first + second
 
-    except TypeError:
+    except ValueError:
         print("sorry cant add")
 
     print(sum)
