@@ -5,5 +5,5 @@ for i in filename:
         with open (filename) as f_obj:
             contents = f_obj.read()
 
-    except FileNotFoundError:
+    except TypeError:
         print("sorry, file not found")
