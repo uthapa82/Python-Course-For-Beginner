@@ -1,4 +1,5 @@
 import json
+
 def get_stored_username():
     filename = 'username.json'
     try:
@@ -11,7 +12,7 @@ def get_stored_username():
 
 def get_new_username():
     """prompt for a new username."""
-    username = input("What is your name??")
+    username = input("What is your name? ")
     filename = 'username.json'
     with open(filename, 'w') as f:
         json.dump(username, f)
@@ -20,9 +21,9 @@ def get_new_username():
 def greet_user():
     username = get_stored_username()
     if username:
-        correct = input("Are you " + username + "?" + "y/n")
+        correct = input("Are you " + username + "?" + "y/n ")
         if correct == 'y':
-            print("welcomeback, " + username)
+            print("welcome back, " + username)
         else:
             username = get_new_username()
             print("we will remembers when you come back back again, " + username)
