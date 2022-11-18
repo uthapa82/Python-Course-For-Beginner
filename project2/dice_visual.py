@@ -13,7 +13,7 @@ frequencies = [results.count(value) for value in range(2, max_result+1)]
 
 hist = pg.Bar()
 
-hist._title = "Results of rolling on D6 1000 times."
+hist._title = "Results of rolling on two D6 1000 times."
 hist.x_labels = [str(x) for x in range(2, max_result+1)]
 hist.x_title = "Results"
 hist._y_title = "Count/Frequency of Results"
