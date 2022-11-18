@@ -9,7 +9,6 @@ results = [die.roll() for roll_num in range(1000)]
 
 frequencies = [results.count(value) for value in range (1, die.num_sides+1)]
 
-
 # visualize the results 
 hist = pg.Bar()
 
