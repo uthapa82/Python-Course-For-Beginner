@@ -5,11 +5,16 @@ from die import Die
 die = Die(8)
 die_2 = Die(8)
 
-result = die.roll() + die_2.roll()
-results = [result for roll_num in range(10000)]
+results = []
+for roll_num in range(10000):
+    result = die.roll() + die_2.roll()
+    results.append(result)
 
-max_result = die.num_sides + die_2.num_sides 
-frequencies = [results.count(value) for value in range(2, max_result+1)]
+frequencies = []
+max_result = die.num_sides + die_2.num_sides
+for value in range(2, max_result+1):
+    frequency = results.count(value)
+    frequencies.append(frequency)
 
 hist = pg.Bar()
 
