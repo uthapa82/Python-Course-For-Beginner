@@ -1,6 +1,7 @@
 import pygal as pg
 from die import Die
 
+
 #Rolling three six slided dice.
 die = Die()
 die_2 = Die()
@@ -11,12 +12,15 @@ for roll_num in range(100000):
     result = die.roll() + die_2.roll() + die_3.roll()
     results.append(result)
 
+# results = [die.roll() + die_2.roll() for roll_num in range(100000)]
+
 frequencies = []
 max_result = die.num_sides + die_2.num_sides + die_3.num_sides
 for value in range(3, max_result+1):
     frequency = results.count(value)
     frequencies.append(frequency)
-
+    
+#frequencies =[results.count(value) for value in range(3, max_result+1)]
 
 hist = pg.Bar()
 
