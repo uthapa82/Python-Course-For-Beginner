@@ -1,6 +1,6 @@
 import pygal as pg
 from die import Die
-from lxml import etree
+#from lxml import etree
 
 die = Die()
 die_2 = Die()
