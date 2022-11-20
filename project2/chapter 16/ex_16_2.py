@@ -9,30 +9,36 @@ with open(filename) as f:
     header_row = next(reader)
     
     highs = []
+    dates = []
     lows = []
     for row in reader:
         try:
+            
+            current_date = datetime.strptime(row[0], "%Y-%m-%d")
             high = int(row[1])
             low = int(row[3])
             
         except ValueError:
-            print('missing data')
+            print(current_date, 'missing data')
         else:
+            dates.append(current_date)
             highs.append(high)
             lows.append(low)
     
-   
 fig = plt.figure(dpi=128, figsize=(10, 6))
-plt.plot(highs, c='red', alpha=0.9)
-plt.plot(lows, c='blue', alpha=0.9)
+plt.plot(dates, highs, c='red', alpha=0.9)
+plt.plot(dates, lows, c='blue', alpha=0.9)
 
-plt.fill_between(highs, lows, facecolor='blue', alpha=0.1)
+plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
-plt.title('Daily high & low temperatures, July 2014', fontsize=24)
+title = "Daily high & low temperatures, July 2014"
+title += "\n sitka, AK & DeathValley."
+plt.title(title, fontsize=24)
 plt.xlabel('', fontsize=16)
 
 fig.autofmt_xdate()
 plt.ylabel("Temperature(F)", fontsize=16)
 plt.tick_params(axis='both', which='major', labelsize=16)
+plt.ylim(10, 120)
 
 plt.show()    
