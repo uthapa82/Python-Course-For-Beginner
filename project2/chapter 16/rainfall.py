@@ -14,7 +14,7 @@ with open(filename) as f:
         try:
             
             current_date = datetime.strptime(row[0], "%Y-%m-%d")
-            rainfall = float(row[4])
+            rainfall = float(row[19])
             
         except ValueError:
             print(current_date, 'missing data')
