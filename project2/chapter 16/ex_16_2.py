@@ -26,8 +26,8 @@ with open(filename) as f:
             lows.append(low)
     
 fig = plt.figure(dpi=128, figsize=(10, 6))
-plt.plot(dates, highs, c='red', alpha=0.9)
-plt.plot(dates, lows, c='blue', alpha=0.9)
+plt.plot(dates, highs, c='red', alpha=0.5)
+plt.plot(dates, lows, c='blue', alpha=0.5)
 
 plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
