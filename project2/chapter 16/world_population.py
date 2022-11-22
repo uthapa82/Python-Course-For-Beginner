@@ -1,13 +1,14 @@
 import json
-import pygal
-from country_code import get_country_code
-# load the data into a list 
-filename = '../dataset/population_data.json'
+
+from country_codes import get_country_code
+
+filename = 'population_data.json'
 with open(filename) as f:
     pop_data = json.load(f)
 
+
 cc_populations = {}
-# print the 2010 population for each country 
+
 for pop_dict in pop_data:
     if pop_dict['Year'] == '2010':
         country_code = pop_dict['Country Code']
