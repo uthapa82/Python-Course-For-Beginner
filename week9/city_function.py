@@ -1,5 +1,4 @@
-def city_country (city, country):
-    """ Return city, coountry name."""
-    return(city + " " + country)
 
-#exercise_11.1  city, country!!
+def city_country (city, country):
+    """ Return city, country name."""
+    return(city.title() + " " + country.title())

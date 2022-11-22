@@ -14,7 +14,7 @@ def get_weather_data(filename, dates, highs, lows):
                 current_date = datetime.strptime(row[0], "%Y-%m-%d")
                 high = int(row[1])
                 low = int(row[3])
-            
+                
             except ValueError:
                 print("missing data")
             else:
