@@ -7,9 +7,7 @@ def get_weather_data(filename, dates, highs, lows):
     with open(filename) as f:
         reader = csv.reader(f)
         header_row = next(reader)
-        
-        #highs = []
-        #low = []
+
         for row in reader:
             try:
             
@@ -25,7 +23,7 @@ def get_weather_data(filename, dates, highs, lows):
                 lows.append(low)
 
 dates, highs, lows = [], [], []
-get_weather_data('../sitka_weather_2014.csv', dates, highs, lows)
+get_weather_data('../dataset/sitka_weather_2014.csv', dates, highs, lows)
 
 fig = plt.figure(dpi=128, figsize=(10, 6))
 plt.plot(dates, highs, c='red', alpha=0.9)
@@ -33,7 +31,7 @@ plt.plot(dates, lows, c='blue', alpha=0.9)
 
 plt.fill_between(dates, highs, lows, facecolor='blue', alpha=0.1)
 
-# Foe Deatg valley.
+# For Death valley.
 dates, highs, lows = [], [], []
 get_weather_data('../dataset/death_valley_2014.csv', dates, highs, lows)
 
