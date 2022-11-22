@@ -60,3 +60,24 @@ For example:
 
 `$ ls ` ===> list directories 
 
+
+#### virtualenv
+* Creating virtual environment
+
+`$ pip install virutalenv`
+
+`$ mkdir Environments`
+
+`$ virtualenv project1_env`
+
+`$ source project1_env/bin/activate`
+
+`$ deactivate`
+
+* Get rid of the project1_env folder 
+
+`$ rm -rf project1_env/`
+
+* Install requirements using requirements.txt file 
+
+`$ pip install -r requirements.txt`

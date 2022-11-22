@@ -13,8 +13,8 @@ def word_count(file):
         msg = "Sorry, the file " + file + " doesn't exist."
         
     else:
-        words = contents  #contents.split()
-        result = words.lower().count('the') # len(words)
+        words = contents 
+        result = words.lower().count('the') 
         print("The file " + file + " has about " + str(result) + " 'the' words.")
 
 def main():
