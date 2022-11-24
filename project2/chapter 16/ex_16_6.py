@@ -1,7 +1,7 @@
 import json
 import pygal
 
-from pygal.maps.world import world
+from pygal_maps_world import World
 from country_code import get_country_code
 
 filename = 'global_gdp.json'
@@ -33,4 +33,4 @@ wm.add('0-10m', cc_gdps_1)
 wm.add('10m-1bn', cc_gdps_2)
 wm.add('>1bn', cc_gdps3)
 
-wm.render_to_file('world_population.svg')
+wm.render_to_file('Global GDP.svg')
