@@ -28,4 +28,4 @@ chart.title = 'Most-Starred Python Projects on GitHub'
 chart.x_labels = names
 
 chart.add('', plot_dict)
-chart.render_to_file('api_visual.svg')
+chart.render_to_file('plot_dict.svg')
