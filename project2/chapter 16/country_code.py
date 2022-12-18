@@ -1,5 +1,4 @@
-from pygal_maps_world.il8n import COUNTRIES
-#from pygal.i18n import COUNTRIES
+from pygal_maps_world.i18n import COUNTRIES
 
 def get_country_code(country_name):
     """Return the Pygal 2-digit country code for the given country."""
