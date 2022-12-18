@@ -6,7 +6,7 @@ from settings import Settings
 
 from ship import Ship
 
-import game_functions as gf
+import game_function as gf
 
 def run_game():
     pygame.init()
@@ -22,6 +22,7 @@ def run_game():
     ship = Ship(screen)
     
     while True:
+        gf.check_events()
         
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
