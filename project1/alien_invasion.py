@@ -28,9 +28,9 @@ def run_game():
                 sys.exit()
                 
         screen.fill(ai_settings.bg_color)
-
         ship.blitme()
 
+        #Make the most recent draw screen visible.
         pygame.display.flip()
 
 run_game()
